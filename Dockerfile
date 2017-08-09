@@ -6,10 +6,6 @@
 
 FROM debian:jessie
 
-ADD lyberteam-message.sh /var/www/lyberteam/lyberteam-message.sh
-RUN chmod +x /var/www/lyberteam/lyberteam-message.sh
-RUN /var/www/lyberteam/lyberteam-message.sh
-
 MAINTAINER Lyberteam <lyberteamltd@gmail.com>
 LABEL Vendor="Lyberteam"
 LABEL Description="Debian like application container"
